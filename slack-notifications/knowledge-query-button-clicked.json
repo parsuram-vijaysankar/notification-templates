@@ -1,0 +1,36 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "The policy on reimbursing work-related conference tickets is that employees can submit their expense reports within 30 days of attending the conference. The reimbursement covers the cost of the conference ticket, accommodation, and reasonable travel expenses. Make sure to attach all relevant receipts for a smooth reimbursement process."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Source:* Your company wiki"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": ":thumbsup:  I'm glad I was able to help you today"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": ":thumbsdown:  Thank you for your feedback, it helps me get better."
+				}
+			]
+		}
+	]
+}
