@@ -1,0 +1,66 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": ":wave: Hi! I'm Zoe"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://api.slack.com/img/blocks/bkb_template_images/placeholder.png",
+					"alt_text": "placeholder"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Requested by you*"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|REQ-102> Our customer access portal for payments is not working*"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "_Latest message:_ This is the most recent message on the request"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "Status: *Pending*"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Priority: *High*"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Assigned to: <fakelink.toUrl.com|@Parsu>"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		}
+	]
+}
