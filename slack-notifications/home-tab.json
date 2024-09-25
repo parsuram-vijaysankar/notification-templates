@@ -12,21 +12,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": ":sparkles: Atomicwork asked me to assist you and answer your questions."
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "💬 Ask me any questions you might have like how to set up a VPN or add a dependant to your health insurance."
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": ":ballot_box_with_ballot: I can also help you raise requests for things like a new monitor, software access and more!"
+				"text": ":sparkles: Atomicwork asked me to assist you and answer your questions. \n\n\n 💬 Ask me any questions you might have like how to set up a VPN or add a dependant to your health insurance. \n\n\n :ballot_box_with_ballot: I can also help you raise requests for things like a new monitor, software access and more!\n\n"
 			}
 		},
 		{
@@ -38,22 +24,15 @@
 			}
 		},
 		{
-			"type": "section",
-			"text": {
-				"type": "plain_text",
-				"text": "  ",
-				"emoji": true
-			}
+			"type": "divider"
 		},
 		{
 			"type": "header",
 			"text": {
 				"type": "plain_text",
-				"text": "Requested by you"
+				"text": "Activities",
+				"emoji": true
 			}
-		},
-		{
-			"type": "divider"
 		},
 		{
 			"type": "actions",
@@ -62,7 +41,17 @@
 					"type": "button",
 					"text": {
 						"type": "plain_text",
-						"text": "Open and pending",
+						"text": "All activities",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-9"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Approvals (8)",
 						"emoji": true
 					},
 					"value": "click_me_123",
@@ -72,11 +61,31 @@
 					"type": "button",
 					"text": {
 						"type": "plain_text",
-						"text": "Completed",
+						"text": "Tasks (12)",
 						"emoji": true
 					},
 					"value": "click_me_123",
 					"action_id": "actionId-1"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Requested by you (6)",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-2"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Assigned to you (23)",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-3"
 				}
 			]
 		},
@@ -84,7 +93,388 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Open and pending (6)*"
+				"text": "*Pending Approvals* (8)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|SR-230: Access to customer data>* \n _Description:_ I need access to customer information from Apollo for John Smith, CEO of Acme Corporation. This is for a high-priority sales opportunity. I'm looking to access John's contact details, company information, and recent interactions in Apollo. This access is necessary to prepare for an upcoming executive meeting. As per company policy, I understand this requires manager... \n <fakelink.toUrl.com|See more>"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Data access*\n*Customer name:* Target\n*Business justification:* They setup a demo with our product for next week\n"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://i.ibb.co/QNQ6sVP/Image-1.png",
+					"alt_text": "User"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Requested by* Mark Phillips on 9 Sept 2024"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Approve",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "approve"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Decline",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "decline"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|SR-205: Team lunch>* \n _Description:_ Celebrating our 5th consiquitive month in quota\n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Reimbursement claims*\n*Date:* 20/8/2024\n*Bill number:* 10238\n*Cost:* $203\n*Business reason:* Team motivation\n<fakelink.toUrl.com|See details>"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://api.slack.com/img/blocks/bkb_template_images/creditcard.png",
+				"alt_text": "plane"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://i.ibb.co/6PH9TgS/Image.png",
+					"alt_text": "User"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Requested by* Emma williams on 9 Sept 2024"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Approve",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "approve"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Decline",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "decline"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|SR-201: Business travel to the East coast>* \n _Description:_ Need to go meet our long time account manager in the west coast to fix the dropped lead issue. I need to travel to new york\n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Travel request*\n*Date:* 18/9/2024\n*Service Provider:* Delta Airways\n"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://api.slack.com/img/blocks/bkb_template_images/plane.png",
+				"alt_text": "plane"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://i.ibb.co/PMpHZPt/Image-8.png",
+					"alt_text": "User"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Requested by* Collin hammond jr. on 12 Sept 2024"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Approve",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "approve"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Decline",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "decline"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "View 5 more",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-0"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Pending tasks* (8)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|Analyze temp files getting accumalted>* \n Memory get full every 8-10 days as there seems to be a process that is long living without freeing up memory. Find that process \n"
+			},
+			"accessory": {
+				"type": "overflow",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Make and complete",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Open in browser",
+							"emoji": true
+						},
+						"value": "value-1"
+					}
+				],
+				"action_id": "overflow-action"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Due by:* 12 Sept 2024\n*Problem:* <fakelink.toUrl.com|PB-29: Server keep crashing every 10 days>"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|Analyze security impact of server upgrade>* \n Plan and assess the potential threats for upgrade of server migrations 1.1 to 3.5\n"
+			},
+			"accessory": {
+				"type": "overflow",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Make and complete",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Open in browser",
+							"emoji": true
+						},
+						"value": "value-1"
+					}
+				],
+				"action_id": "overflow-action"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Overdue on:* 8 Sep 2024\n*Change:* <fakelink.toUrl.com|CHG-29: Migration of server>"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|Submit tax decrations>* \n Hi Joel, \n Don't forget to upload your declartions to <fakelink.toUrl.com|myTax.com> portal before the last day. \n"
+			},
+			"accessory": {
+				"type": "overflow",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Make and complete",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Open in browser",
+							"emoji": true
+						},
+						"value": "value-1"
+					}
+				],
+				"action_id": "overflow-action"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Due by:* 29 Sept 2024\n*Journey:* <fakelink.toUrl.com|Quarterly tax submission>"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "View 5 more",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-0"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Unresolved requests raised by you* (6)"
 			}
 		},
 		{
@@ -98,14 +488,32 @@
 			"type": "context",
 			"elements": [
 				{
-					"type": "mrkdwn",
-					"text": "*Status:* Pending"
+					"type": "image",
+					"image_url": "https://i.ibb.co/QNQ6sVP/Image-1.png",
+					"alt_text": "User"
 				},
 				{
 					"type": "mrkdwn",
-					"text": "*Agent:* <fakelink.toUrl.com|@John appleseed>"
+					"text": "*Agent* John appleseed"
 				}
 			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Status* Pending"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
 		},
 		{
 			"type": "section",
@@ -118,14 +526,32 @@
 			"type": "context",
 			"elements": [
 				{
-					"type": "mrkdwn",
-					"text": "*Status:* Pending"
+					"type": "image",
+					"image_url": "https://i.ibb.co/5244B8J/Image-6.png",
+					"alt_text": "User"
 				},
 				{
 					"type": "mrkdwn",
-					"text": "*Agent:* <fakelink.toUrl.com|@William alright>"
+					"text": "*Agent:* William alright"
 				}
 			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Status:* Pending"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
 		},
 		{
 			"type": "section",
@@ -139,11 +565,16 @@
 			"elements": [
 				{
 					"type": "mrkdwn",
-					"text": "*Status:* Pending"
-				},
+					"text": "*Agent:* Unassigned"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
 				{
 					"type": "mrkdwn",
-					"text": "*Agent:* Unassigned"
+					"text": "*Status:* Open"
 				}
 			]
 		},
@@ -159,11 +590,291 @@
 					},
 					"value": "click_me_123",
 					"action_id": "actionId-0"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Completed requests",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-1"
 				}
 			]
 		},
 		{
 			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Unresolved requests assigned to you* (20)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|GR-121: Where can I find similar computer parts for my laptop>* \n _Description:_ I have similar laptop in my home, need to find a good vendor for me to upgdate the ram for my sons school work, would you be able to recommed. \n"
+			},
+			"accessory": {
+				"type": "overflow",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Reply",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Private comment",
+							"emoji": true
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Change status",
+							"emoji": true
+						},
+						"value": "value-2"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Open in browser",
+							"emoji": true
+						},
+						"value": "value-3"
+					}
+				],
+				"action_id": "overflow-action"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://i.ibb.co/sRCymzX/Image-4.png",
+					"alt_text": "User"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Requested by:* Sahara goodwin on 2 Sept 2024"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Status:* Pending\n*Priority:* High\n*Due by:* 2 Sept 2024 12:00pm"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|INC-12: Our customer access portal for payments is not working>* \n _Recent message:_ Our access to the payment gateway seems to be throwing an error \n"
+			},
+			"accessory": {
+				"type": "overflow",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Reply",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Private comment",
+							"emoji": true
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Change status",
+							"emoji": true
+						},
+						"value": "value-2"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Open in browser",
+							"emoji": true
+						},
+						"value": "value-3"
+					}
+				],
+				"action_id": "overflow-action"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://i.ibb.co/5244B8J/Image-6.png",
+					"alt_text": "User"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Requested by:* William alright on 1 Sept 2024"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Status:* Pending\n*Priority:* High\n*Overdue:* 1 Sept 2024 12:00pm"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*<fakelink.toUrl.com|SR-122: Request for new laptop>* \n _Description:_ I need a new laptop for as my macbook has become more than 4 yrs old. \n"
+			},
+			"accessory": {
+				"type": "overflow",
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Reply",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Private comment",
+							"emoji": true
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Change status",
+							"emoji": true
+						},
+						"value": "value-2"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Open in browser",
+							"emoji": true
+						},
+						"value": "value-3"
+					}
+				],
+				"action_id": "overflow-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Laptop replacement*\n*Brand:* Macbook\n*Serial number:* SRN283927903 \n*Issued date:* 12/8/2020 \n"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://i.ibb.co/wgsHg1k/Screenshot-2024-08-24-at-12-56-01-AM-1.png",
+				"alt_text": "Laptop"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "image",
+					"image_url": "https://i.ibb.co/5244B8J/Image-6.png",
+					"alt_text": "User"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Requested by:* William alright on 1 Sept 2024"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Status:* Open\n*Priority:* Urgent\n*Due by:* 2 Sept 2024 12:00pm"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "View 17 more",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-0"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "  ",
+				"emoji": true
+			}
 		}
 	]
 }
