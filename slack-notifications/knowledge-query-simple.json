@@ -38,6 +38,26 @@
 					"action_id": "actionId-2"
 				}
 			]
+		},{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "\n",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "This content is AI generated",
+					"emoji": true
+				}
+			]
 		}
 	]
 }
