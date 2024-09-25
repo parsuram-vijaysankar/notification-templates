@@ -1,0 +1,59 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Sure! I have found travel reimbursement in our catalog, would you like to raise a request?"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "\n",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Travel reimbursement*\nSubmit these receipts along with the appropriate reimbursement forms to receive compensation for your out-of-pocket costs."
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://i.ibb.co/myCt9rj/10488192-airplane-holiday-travel-trip-transport-icon.png",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Request",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "request",
+					"action_id": "actionId-1"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Rated Not helpful?*  - Thank you for your feedback, it helps me get better."
+				}
+			]
+		}
+	]
+}
